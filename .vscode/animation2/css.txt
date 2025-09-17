@@ -1,0 +1,144 @@
+body{
+    height: 100%;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-container{
+    display: flex;
+    justify-self: center;
+    margin-top: 10%;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.5px;
+    /* word-spacing: 10px; */
+}
+.blue{
+     color: white;
+     animation: bluecolor 3s infinite 12s ;
+}
+.green{
+    color: white;
+    animation: greencolor 3s infinite 9s;
+}
+
+.gold{
+    color: white;
+    animation: goldcolor 3s infinite 6s ;
+}
+
+.light-green{
+     color: white;
+     animation: light-greenc 3s infinite 10s;
+}
+
+/* .blue, .green, .gold, .light-green{
+    display: none;
+} */
+@keyframes bluecolor {
+     to{
+        color: blue;
+     }
+}
+@keyframes greencolor {
+     to{
+        color: green;
+     }
+}
+@keyframes goldcolor {
+     to{
+        color: gold;
+     }
+}
+@keyframes light-greenc {
+     to{
+        color: lightgreen;
+     }
+}
+.rolling-text{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotatecircle 5s linear infinite ;
+
+}
+@keyframes rotatecircle {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.rolling{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 40%;
+    position: relative;
+}
+.static-text{
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -90px;
+    left: 40px;
+}
+.big-container{
+    width: 750px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-self: center;
+    align-items: end;
+    
+
+}
+.chart{
+    width: 250px;
+    opacity: 0.5;
+    animation: grow 4s;
+    transform-origin: bottom;
+    /* transform: scaleY(0); */
+}
+.c1{
+    background-color: rgb(47, 3, 9);
+    height: 300px;
+}
+.c2{
+    background-color: rgb(6, 75, 98);
+    height: 400px;
+}
+.c3{
+    background-color: rgb(49, 13, 134);
+    height: 300px;
+}
+.c4{
+    background-color: lightblue;
+    height: 250px;
+}
+.c5{
+    background-color: rgb(139, 36, 134);
+    height: 150px;
+}
+.c6{
+    background-color: rgb(49, 13, 194);
+    height: 100px;
+}
+@keyframes grow {
+    to{
+        transform: scaleY(1);
+    }
+    from{
+        transform: scaleY(0);
+    }
+}
+.chart:hover{
+    width: 300px;
+    opacity: 1;
+    transition-duration: 2s;
+}

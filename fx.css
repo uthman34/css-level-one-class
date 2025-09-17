@@ -1,0 +1,188 @@
+/* .content{
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    border-radius: 015px;
+    margin-bottom: 20px;
+}
+.mother-container{
+    display: flex;
+    gap: 20px;
+
+} */
+ body{
+    background-color: black;
+    color: aliceblue;
+ }
+ .container{
+    display: flex;
+ }
+ .first-box{
+    width: 500px;
+    height: 50px;
+    border: 1px solid grey ;
+    border-radius: 30px ;
+    color: grey;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.left{
+  height: 600px;
+   width: 500px;
+   border: 1px solid black;
+  
+}
+ #first-icon{
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+  #second-icon{
+    width: 30px;
+    height: 30px;
+    /* background-color: rgb(11, 11, 11); */
+    border-radius: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    color:pink; */
+ }
+ .cirle{
+    display: flex;
+    gap: 5px;
+ }
+ .second-box{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 10px 0px;
+ }
+ .one-over-one{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+
+ }
+ textarea{
+   background-color: black;
+   border: none;
+   color: white;
+   width: 95%;
+   height: 150px;
+ }
+ .texarea{
+   padding: 5px 8px;
+ }
+ .hr{
+   height: 1px;
+   width: 100%;
+   background-color: grey;
+   margin: 15px 0 10px 0;
+ }
+ .under-icon{
+   width: 20px;
+   height: 10px;
+   border: 1px solid grey;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   color: grey;
+   font-size: 10px;
+   padding: 4px 6px;
+   margin-right: 350px;
+   
+ }
+ #create{
+   background-color: gold;
+   border-radius: 20px;
+   border: none;
+   font-size: 12px;
+   padding: 6px 15px;
+   /* width: 70px;
+   height: 20px;
+   margin-right: 100PX; */
+ }
+ .under-text{
+   display: flex;
+   justify-content: center;
+ }
+ .under-hr-button{
+   background-color: black;
+   color: grey;
+   font-size: 12px;
+   border: 1px solid grey;
+   border-radius: 10px;
+   padding: 5px 10px;
+ }
+ .under-hr{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+   padding: 5px 40px;
+   
+
+   
+ }
+ .under-hr-div{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin-bottom: 10px;
+ }
+ .thrd-box{
+   width: 480px;
+   height: 200px;
+   border-radius: 10px;
+   border: 1px solid grey;
+   padding: 15px 16px;
+   background-color: #141414;
+ }
+ .seed{
+  color: white ;
+  display: flex;
+  justify-content: space-between;
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 5px 8px;
+ }
+
+
+ /* body{
+   background-color: black;
+ }
+ .container{
+   display: flex;
+ }
+ .first-box{
+   width: 500px;
+   height: 50px;
+   border-radius: 30px;
+   border: 1px solid grey;
+   color: grey;
+   padding: 0px 10px;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+ }
+ #first-icon{
+   width: 30px;
+   height: 30px;
+   background-color: gold;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .second-icon{
+   width: 30px;
+   height: 30px;
+   border-radius: ;
+ } */

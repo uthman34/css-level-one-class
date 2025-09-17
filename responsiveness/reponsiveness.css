@@ -1,0 +1,192 @@
+body{
+        overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: center;
+    max-width: 100%;
+    margin: 0%;
+    position: sticky;
+    top: 0px;
+    height: 10vh;
+    z-index: 3;
+    background-color: white;
+    position: relative;
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: gray;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    gap: 15px;
+    font-weight:bold;
+
+}
+.right button:first-child{
+    border: none;
+    color: #0066f5;
+    background-color: inherit;
+    padding: 10px 8px;
+    font-weight:bold;
+
+}
+.right button:last-child{
+    border: none;
+    background-color: #0066f5;
+    color: white;
+    padding: 10px 8px;
+    border-radius: 5px;
+    font-weight:bold;
+
+}
+.logo{
+    display: none;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.cards{
+    display: grid;
+    justify-self: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.card{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+.card1{
+    background-color: magenta;
+}
+.card2{
+    background-color: black;
+}
+.card3{
+    background-color: pink;
+}
+.card4{
+    background-color: orangered;
+}
+.card5{
+    background-color: brown;
+}
+.card6{
+    background-color:indianred;
+}
+/* phone */
+.menu{
+    display: none;
+}
+
+.blue-container{
+    width: 100%;
+    height: 80vh;
+    display: none;
+    background-color: blue;
+    padding: 20px 10px 5px 15px ;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.first-three span{
+    font-size: 35px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    animation: flow 0.5s forwards ease;
+    visibility: hidden;
+}
+.other-links span{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    color: #0066f5;
+    animation: flow 0.5s forwards ease 0.5s;
+    visibility: hidden;
+}
+.other-links{
+    margin-top: 40px;
+}
+.menu-container{
+    display: none;
+}
+.x{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+.x:hover .blue-container{
+    display: none;
+}
+.menu-container:hover .blue-container{
+    display: block;
+}
+@keyframes flow {
+    from{
+        transform: translateY(20px);
+    } 
+    to{
+        transform: translateY(0px);
+        visibility: visible;
+    }
+}
+@media (max-width:480px) {
+    .container{
+        background-color: red;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        width: 80vw;
+    }
+    
+}
+/* tablet & laptop */
+@media (min-width:480px) and ( max-width: 1023px) {
+    .container{
+        background-color: green;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        width: 40vw;
+    }
+    
+}
+@media (min-width:1023px) and (max-width: 1440px) {
+    .container{
+        background-color: yellow;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+@media (max-width: 980px) {
+    .left, .right{
+        display: none;
+    }
+    .logo{
+        display: block;
+    }
+    .menu{
+        display: block;
+    }
+    .menu-container{
+        display: block;
+    }
+}
