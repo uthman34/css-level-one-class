@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+    background-color: #ffcf99;
+
+}
+nav{
+    width: 1100px;
+    height: 40px;
+    background-color: #7a5c2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+    top: ;
+    z-index: 5;
+
+}
+.navrr{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.giraf{
+    /* background-image: url(./hackathon\ giraf.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 95vh;
+    margin-top: -240px; */
+    
+}
+header{
+    background-image: url(./hackathon\ giraf.jpg);
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.heartbeat{
+    width: 400px;
+    height: 400px;
+    color: rgb(239, 231, 231);
+    font-size: 15px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.theheart{
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 20px;
+}
+.discover{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.section2{
+    width: 100%;
+height: 100vh;
+background-color: #ffcf99;
+display: flex;
+}
+.section2image{
+    width: 50%;
+    height: inherit;
+    /* background-image: url(./hackathon\ couple.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: inherit;     */
+}
+.abus{
+    font-size: 25px;
+    color: #876e48;
+    font-weight: bold;
+}
+.explore{
+    font-size: 20px;
+    font-weight: bold;
+}
+.explore-d{
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.section2text{
+        width: 50%;
+    height: inherit;
+    margin-top: 150px;
+    margin-left: 50px;
+    }
+    .sect2text{
+        width: 500px;
+    }
+    .sectbox{
+        display: flex;
+        width: 800px;
+        gap: 30px;
+        margin: 200px;
+        margin-bottom: 300px;
+    }
+    .section3{
+        background-image: url(./hackathon\ house.jpg);
+        height: 50vh;
+        /* z-index: 5; */
+        
+    }
+    .sect-con{
+        background-color: #876e4886 ;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-radius: 20px;
+        
+    }
+@media (min-width: 600px) and (max-width:980px) {
+     nav{
+        width: fit-content;
+
+     } 
+    header{
+        width: 100%;
+        background-position: center;
+    }
+}
